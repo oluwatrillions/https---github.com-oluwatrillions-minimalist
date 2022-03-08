@@ -1,0 +1,290 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.firstCon {
+  width: 100vw;
+  height: 50vh;
+  background-image: url("./img/sea.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  color: aliceblue;
+  position: relative;
+}
+
+.secCon {
+  width: 100vw;
+  height: 50vh;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav ul {
+  display: flex;
+  cursor: pointer;
+  font-size: 1.2em;
+  color: rgb(56, 34, 34);
+}
+
+ul li {
+  display: flex;
+  padding-right: 3em;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons Img {
+  width: 2em;
+  height: 2em;
+}
+
+.search {
+  margin-left: 2em;
+  margin-right: 1em;
+}
+
+.trillions {
+  color: rgb(17, 17, 17);
+  cursor: pointer;
+  margin-left: 3em;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+.positional {
+  position: absolute;
+  top: 20vh;
+  right: 14vw;
+}
+
+.positional h1 {
+  font-size: 5em;
+  color: rgb(148, 130, 130);
+}
+
+.positional h4 {
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 0.3em;
+  color: rgb(216, 213, 213);
+}
+
+button {
+  width: 10em;
+  height: 3em;
+  border-radius: 0.8em;
+  border: none;
+  box-sizing: border-box;
+  font-size: 1em;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  color: rgb(59, 57, 57);
+  background: rgb(202, 183, 147);
+}
+
+.secContainer {
+  display: flex;
+  padding: 2em;
+}
+
+.firstHalf {
+  width: 50%;
+  height: 43vh;
+  position: relative;
+}
+
+.secHalf {
+  width: 50%;
+  /* height: 20vh; */
+  margin-right: 2em;
+}
+
+.firstHalf img {
+  width: 42vw;
+  height: 43vh;
+  position: relative;
+  margin-left: 2em;
+  object-fit: cover;
+}
+
+.firstHalf button {
+  position: absolute;
+  bottom: 1vh;
+  right: 4.5vw;
+  cursor: pointer;
+}
+
+.secHalf img {
+  width: 46vw;
+  height: 20.7vh;
+  margin-left: 1em;
+  object-fit: cover;
+}
+
+.secImg {
+  margin-top: 0.6em;
+  position: relative;
+}
+
+.secImg button {
+  position: absolute;
+  bottom: 1.5vh;
+  right: 1.5vw;
+}
+
+.firstImg {
+  position: relative;
+}
+
+.firstImg button {
+  position: absolute;
+  bottom: 1.5vh;
+  right: 1.5vw;
+}
+
+@media only screen and (max-width: 500px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .firstCon {
+    width: 100vw;
+    height: 35vh;
+  }
+
+  .nav ul {
+    display: flex;
+    cursor: pointer;
+    font-size: 0.8em;
+    color: rgb(211, 212, 212);
+  }
+
+  ul li {
+    display: flex;
+    padding-right: 1.5em;
+  }
+
+  .trillions {
+    font-size: 0.8em;
+    font-weight: 900;
+    margin-left: 0em;
+    margin-right: 1em;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .icons img {
+    width: 1em;
+    height: 1em;
+  }
+
+  .search {
+    margin-right: 0;
+    margin-left: 1em;
+  }
+
+  .positional {
+    position: absolute;
+    top: 10vh;
+    right: 5vw;
+  }
+
+  .positional h1 {
+    font-size: 2em;
+  }
+
+  .positional h4 {
+    font-size: 1em;
+  }
+
+  .positional button {
+    width: 7em;
+    height: 2em;
+  }
+
+  .secContainer {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .firstHalf {
+    width: 100vw;
+    height: 30vh;
+  }
+
+  .firstHalf img {
+    width: 100vw;
+    height: 30vh;
+    margin: 0;
+  }
+
+  .firstHalf button {
+    width: 7em;
+    height: 2em;
+  }
+
+  .secHalf {
+    width: 100vw;
+    height: 30vh;
+  }
+
+  .firstImg img {
+    width: 100vw;
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .firstImg button {
+    width: 7em;
+    height: 2em;
+    position: absolute;
+    right: 4vw;
+  }
+
+  .secImg img {
+    width: 100vw;
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .secImg button {
+    width: 7em;
+    height: 2em;
+    position: absolute;
+    right: 4vw;
+  }
+
+  .secImg {
+    height: 30vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .firstImg {
+    height: 30vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+}
